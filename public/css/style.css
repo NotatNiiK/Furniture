@@ -235,8 +235,6 @@ body.lock {
 .header__button {
   position: relative;
   background: none;
-  width: 1.375rem;
-  height: 1.375rem;
   margin: 0px 37px 0px 0px;
 }
 .header__button:last-child {
