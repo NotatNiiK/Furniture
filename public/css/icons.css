@@ -1,0 +1,132 @@
+@font-face {
+  font-family: 'icons';
+  src: url('../fonts/icons.eot?z6ch9o');
+  src: url('../fonts/icons.eot?z6ch9o#iefix') format('embedded-opentype'),
+    url('../fonts/icons.ttf?z6ch9o') format('truetype'),
+    url('../fonts/icons.woff?z6ch9o') format('woff'),
+    url('../fonts/icons.svg?z6ch9o#icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="_icon-"]::before,
+[class*=" _icon-"]::before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+._icon-cart:before {
+  content: "\e900";
+}
+
+._icon-cart:before,
+._icon-like:before,
+._icon-search:before {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #6C758D;
+  transition: all .5s ease 0s;
+}
+
+
+._icon-like:hover::before {
+  color: red;
+}
+
+._icon-cart:hover::before {
+  color: orange;
+}
+
+._icon-search:hover::before {
+  font-weight: 700;
+  color: #375fce;
+}
+
+._icon-like:before {
+  font-weight: 700;
+  content: "\e901";
+}
+
+._icon-refresh:before {
+  font-weight: 700;
+  display: inline-block;
+  transition: all .4s ease 0s;
+  content: "\e902";
+}
+
+._icon-refresh:hover::before {
+  transform: rotate(-360deg);
+}
+
+._icon-heart:before {
+  font-weight: 700;
+  content: "\e903";
+  transition: all .4s ease 0s;
+}
+
+._icon-heart:hover::before {
+  color: red;
+}
+
+._icon-Cart:before {
+  transition: all .4s ease 0s;
+  content: "\e904";
+}
+
+._icon-Cart:hover::before {
+  color: orange;
+}
+
+._icon-logo:before {
+  font-size: 1.875rem;
+  letter-spacing: -0.035em;
+  color: #565759;
+  content: "\e905";
+  transition: all .4s ease 0s;
+}
+
+._icon-logo:hover::before {
+  color: #38393a;
+}
+
+._icon-search:before {
+  content: "\e906";
+}
+
+._icon-facebook:before {
+  content: "\e907";
+}
+
+._icon-instagram:before {
+  content: "\e908";
+}
+
+._icon-twitter:before {
+  content: "\e909";
+}
+
+._icon-facebook:before,
+._icon-instagram:before,
+._icon-twitter:before {
+  display: inline-block;
+  margin: 0px 16px 0px 0px;
+  color: #C1DBF0;
+  transition: all .4s ease 0s;
+}
+
+._icon-facebook:hover::before,
+._icon-instagram:hover::before,
+._icon-twitter:hover::before {
+  color: #7faed4;
+}
